@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Whole Lotta Confusion</title>
+
+		<style type="text/css">
+			body {
+				background-color: #b1649d;
+				-webkit-animation: mymove 5s infinite;
+				animation: mymove 60s infinite;
+				font-family: 'lavi', Sans;
+				text-align: center;
+			}
+
+			#sidebar {
+				width: 400px;
+				height: 1000px;
+				float: left;
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+
+			#mainpage {
+				width: 1200px;
+				height: 1000px;
+				float: left;
+			}
+
+			#header {
+				float: center;
+				text-align: center;
+			}
+
+			#sidebarheading {
+				text-decoration: underline;
+			}
+
+			.spacer {
+				height: 100px;
+				float: center;
+			}
+
+			.sidebarspacer {
+				height: 50px;
+			}
+
+			.header {
+				font-size: 40px;
+			}
+
+			@-webkit-keyframes mymove {
+				50% {background-color: #64b19a;}
+			}
+			@keyframes mymove {
+				50% {background-color: #64b19a;}
+			}
+
+			@font-face {
+				font-family: lavi;
+				src: url('Lavi.ttf');
+			}
+
+
+		</style>
+
+	</head>
+
+	<body>
+		<div id="sidebar">
+
+			<div class="sidebarspacer"></div>
+
+			<h3 id="sidebarheading">Sidebar!</h3>
+
+		</div>
+
+		<div id="mainpage">
+
+			<div class="spacer"></div>
+
+			<div id="header">
+				<h1 class="header">alexhoratio's new website</h1>
+				<p>(hi)</p>
+			</div>
+
+		</div>
+
+	</body>
+</html>
